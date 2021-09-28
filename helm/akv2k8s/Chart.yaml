@@ -4,12 +4,9 @@ description: A Helm chart for akv2k8s
 home: https://github.com/giantswarm/akv2k8s-app
 icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
 name: akv2k8s
-maintainers:
-  - team-celestial
 sources:
 - https://github.com/SparebankenVest/public-helm-charts/tree/master/stable/akv2k8s
 - https://akv2k8s.io/
 restrictions:
   compatibleProviders: ["azure"]
 version: [[ .Version ]]
-
