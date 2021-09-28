@@ -58,10 +58,12 @@ controller:
     pullPolicy: IfNotPresent
 
   # -- Override global log level info=2, debug=4, trace=6
-  logLevel: # info, debug, trace
+  logLevel:
+  # info, debug, trace
 
   # -- Override global log format text or json
-  logFormat: # text or json
+  logFormat:
+  # text or json
 
   # -- Override global - azureCloudConfig (aks credentials), environment (custom)
   keyVaultAuth:
@@ -91,12 +93,15 @@ controller:
   # Override metrics settings from global.metrics
   metrics:
     # -- (bool) Override global.metrics.enabled
-    enabled: # true/false
+    # true/false
+    enabled:
     serviceMonitor:
       # -- (bool) Override global.metrics.serviceMonitor.enabled
-      enabled: # true/false
+      # true/false
+      enabled:
       # -- (string) Override global.metrics.serviceMonitor.interval
-      interval: # e.g. 30s
+      # e.g. 30s
+      interval:
       # -- (object) Override global.metrics.serviceMonitor.additionalLabels
       additionalLabels:
 
@@ -175,10 +180,12 @@ env_injector:
     pullPolicy: IfNotPresent
 
   # -- Override global log level info=2, debug=4, trace=6
-  logLevel: # info, debug, trace
+  # info, debug, trace
+  logLevel:
 
   # -- Override global log format text or json
-  logFormat: # text or json
+  # text or json
+  logFormat:
 
   certificate:
     # -- Use cert-manager to handle webhook certificates,
@@ -236,12 +243,15 @@ env_injector:
   # Override metrics settings from global.metrics
   metrics:
     # -- (bool) Override global.metrics.enabled
-    enabled: # true/false
+     # true/false
+    enabled:
     serviceMonitor:
       # -- (bool) Override global.metrics.serviceMonitor.enabled
-      enabled: # true/false
+      # true/false
+      enabled:
       # -- (string) Override global.metrics.serviceMonitor.interval
-      interval: # e.g. 30s
+      # e.g. 30s
+      interval:
       # -- (object) Override global.metrics.serviceMonitor.additionalLabels
       additionalLabels:
 
