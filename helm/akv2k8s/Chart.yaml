@@ -9,4 +9,4 @@ sources:
 - https://akv2k8s.io/
 restrictions:
   compatibleProviders: ["azure"]
-version: 0.1.0 # [[ .Version ]] if you're using architect instead of app-build-suite
+version: [[ .Version ]] # [[ .Version ]] if you're using architect instead of app-build-suite
