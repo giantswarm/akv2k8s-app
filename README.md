@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/{APP-NAME}-app.svg?style=shield)](https://circleci.com/gh/giantswarm/{APP-NAME}-app)
-
 # Azure Key Vault to Kubernetes App chart
 
 Giant Swarm offers a Azure Key Vault to Kubernetes (akv2k8s) App which can be installed in workload clusters.
